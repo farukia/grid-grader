@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Fast Facts Grid Grader</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+
+  <h1 style="color: white; text-align: center; padding: 20px; font-size: 40px; font-weight: thin;" id="title"> Grid
+    Grader </h1>
+
+
+  <!--- Table --->
+
+  <!-- <button class="floater" style = "margin-top: 30px; padding: 10px 30px 10px 30px; position: fixed;" onclick = "calculate()"> Grade </button> -->
+
+  <table>
+    <tr>
+      <th>
+        <p id="cattotal"></p>
+      </th>
+      <th>
+        <p id="category1">0</p>
+      </th>
+      <th>
+        <p id="category2">0</p>
+      </th>
+      <th>
+        <p id="category3">0</p>
+      </th>
+      <th>
+        <p id="category4">0</p>
+      </th>
+      <th>
+        <p id="category5">0</p>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <p id="letter1"> 0 </p>
+      </td>
+      <td><input type="checkbox" id="input1"></input></td>
+      <td><input type="checkbox" id="input2"></input></td>
+      <td><input type="checkbox" id="input3"></input></td>
+      <td><input type="checkbox" id="input4"></input></td>
+      <td><input type="checkbox" id="input5"></input></td>
+    </tr>
+    <tr>
+      <td>
+        <p id="letter2"> 0 </p>
+      </td>
+      <td><input type="checkbox" id="input6"></input></td>
+      <td><input type="checkbox" id="input7"></input></td>
+      <td><input type="checkbox" id="input8"></input></td>
+      <td><input type="checkbox" id="input9"></input></td>
+      <td><input type="checkbox" id="input10"></input></td>
+    </tr>
+    <tr>
+      <td>
+        <p id="letter3"> 0 </p>
+      </td>
+      <td><input type="checkbox" id="input11"></input></td>
+      <td><input type="checkbox" id="input12"></input></td>
+      <td><input type="checkbox" id="input13"></input></td>
+      <td><input type="checkbox" id="input14"></input></td>
+      <td><input type="checkbox" id="input15"></input></td>
+    </tr>
+    <tr>
+      <td>
+        <p id="letter4"> 0 </p>
+      </td>
+      <td><input type="checkbox" id="input16"></input></td>
+      <td><input type="checkbox" id="input17"></input></td>
+      <td><input type="checkbox" id="input18"></input></td>
+      <td><input type="checkbox" id="input19"></input></td>
+      <td><input type="checkbox" id="input20"></input></td>
+    </tr>
+    <tr>
+      <td>
+        <p id="letter5"> 0 </p>
+      </td>
+      <td><input type="checkbox" id="input21"></input></td>
+      <td><input type="checkbox" id="input22"></input></td>
+      <td><input type="checkbox" id="input23"></input></td>
+      <td><input type="checkbox" id="input24"></input></td>
+      <td><input type="checkbox" id="input25"></input></td>
+    </tr>
+  </table>
+
+  <!-- <p id = "total" style = "padding: 10px; font-size: 20px;"></p> -->
+
+  <!-- Buttons :P --->
+
+  <div class="together">
+    <button style="margin-top: 30px; padding: 10px 30px 10px 30px;" onclick="calculate()"> Grade </button>
+
+    <button style="margin-top: 30px; padding: 10px 30px 10px 30px;" onclick="reset()"> Reset </button>
+  </div>
+
+  <!--- Instructions -->
+
+  <!--  <div class="instructions" style = "display: flex; position: absolute;">
+    <h2> Fast Facts Grid Grader </h2>
+  </div> -->
+
+  <!--- Footer --->
+
+
+  <footer>
+    Made by <a href="https://www.afaruki.com">Ayesha</a>
+    <br>
+    <a class="purplelink" href="info.html"> <u>How do I use this? </u></a>
+  </footer>
+
+</body>
+
+</html>
+
+
+<script src="script.js"></script>
